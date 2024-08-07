@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState('');
-  const [backgroundImage, setBackgroundImage] = useState('background1.jpg');
+  const [backgroundImage, setBackgroundImage] = useState('src\assets\background1.jpg');
 
   useEffect(() => {
     const storedTodos = localStorage.getItem('todos');
