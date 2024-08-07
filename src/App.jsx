@@ -38,7 +38,7 @@ function App() {
   }, [todos]);
 
   return (
-    <div className="todo-list-app" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div className="todo-list-app" style={{ backgroundImage: black }}>
       <h1>Remember Me!</h1>
       <form onSubmit={handleAddTodo}>
         <input
